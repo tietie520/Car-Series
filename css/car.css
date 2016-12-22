@@ -140,16 +140,148 @@ body{
 	position:fixed;
 	z-index:2;
 }
-
-
-
-
-
-
-
-
-
-
+/*aaa*/
+.bigbox{
+	width:100%;
+	height:9820px;
+}
+.bigbox .box{
+	width:1180px;
+	height: 9820px;
+	margin: 0 auto;
+}
+.bigbox .box>h1{
+	font-size: 20px;
+    color: #333;
+    margin-top: 30px;
+    text-align: left;
+    font-weight: bold;
+}
+.bigbox .box .title{
+	margin: 20px 0 20px 0;
+}
+.bigbox .box .title .letter{
+	font-size: 20px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+    float: left;
+    width: 50px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #999;
+}
+ .set-box .sit{
+ 	width: 1000px;
+ 	overflow: hidden;
+	margin-left: 88px;
+	margin-bottom: 20px;
+}
+.set-box .sit>a{
+	float: left;
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.set-box .sit .sit1{
+	float: left;
+}
+.set-box .sit .sit1>a{
+	margin-right: 15px;
+    color: #666;
+    line-height: 30px;
+}
+/*bbb*/
+.bottom{
+	height:400px;
+	background-color:#1F1F1F;
+	margin-top: 100px;
+}
+.bottom .bottom1{
+	width:1180px;
+	height: 356px;
+	margin: 0 auto;
+}
+.bottom .bottom1 .bottom2{
+	width: 1180px;
+	height: 180px;
+	display: inline-block;
+	margin-top: 30px;
+}
+.bottom .bottom1 .bottom2 .title1{
+	width: 190px;
+	float: left;
+	margin-bottom: 30px;
+}
+.bottom .bottom1 .bottom2 .title1>a{
+	display: block;
+    color: #717171;
+    line-height: 25px;
+}
+.bottom .bottom1 .bottom2 .title1 .bt{
+	color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+.erw{
+	display: inline-block;
+}
+.erw img{
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    margin-bottom: 18px;
+    display: block;
+}
+.erw>p{
+	text-align: center;
+    line-height: 1.1;
+    font-size: 13px;
+    color: #4f4f4f;	   
+}
+.city{
+	width:1180px;
+	height: 50px;
+	margin: 0 auto;
+	line-height: 25px;
+    margin-bottom: 30px;
+}
+.city>span{
+	color: #717171;
+}
+.city>a{
+	margin-left: 10px;
+    color: #717171;
+}
+.city>a:hover{
+	color:#ff571a;
+	text-decoration: underline;
+}
+.cityNav{
+	width: 1180px;
+	height: 34px;
+	padding: 10px 0;
+	border-bottom: 1px solid #363636;
+    border-top: 1px solid #363636;
+}
+.cityNav>a{
+	color: #717171;
+    margin-right: 25px;
+    display: block;
+    float: left;
+}
+.cityNav>a:hover{
+	text-decoration: underline;
+}
+.bottom .bottom1>p{
+	color: #717171;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
 
 
 
